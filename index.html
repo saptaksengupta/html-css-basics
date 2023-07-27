@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dl dt::after {
+            content: ": ";
+        }
+
+        div {
+            font-size: 30px;
+        }
+
+        #one > div {
+            background-color: red;
+        }
+
+
+
+    </style>
+    <!-- <link rel="stylesheet" href="./css-examples/style.css"> -->
+</head>
+
+<body>
+
+
+
+    <div id="one">
+        <div>
+            I am inside div1
+            <div>I am inside div1 > span</div> 
+        </div>
+        <div>I am inside div2</div>
+    </div>
+
+
+    <!-- Unordered List -->
+    <ul>
+        <li>First element</li>
+        <li>Second element</li>
+        <li>Third element</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol start="7" type="i" reversed>
+        <li>First element</li>
+        <li>Second element</li>
+        <li>Third element</li>
+    </ol>
+
+    <dl>
+        <dt>Dogs</dt>
+        <!--title-->
+        <dd> Lab </dd>
+        <!--Description-->
+        <dd> Lab1 </dd>
+        <!--Description-->
+        <dd> Lab1 </dd>
+        <!--Description-->
+
+        <dt>Birds</dt>
+        <dd>Koel</dd>
+        <dd>Koel</dd>
+        <dd>Koel</dd>
+        <dd>Koel</dd>
+    </dl>
+
+</body>
+
+</html>

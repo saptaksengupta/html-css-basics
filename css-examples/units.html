@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            font-size: 30px;
+        }
+
+         /* 1 0 0 */
+        /* #header-id {
+            color: pink;
+        } */
+
+        /* 0 2 0 */
+        .header,
+        .header-one { 
+            color: blue;
+        }
+
+        /* 0 5 1 --->  wins */ 
+        /* 0 3 2 */  
+
+        /* 0 1 1 */
+        h1.header {
+            color: red;
+        }
+
+        /* .container {
+            border: 1px solid black;
+            width: 300px;
+        } */
+
+
+        .display-bl-ex {
+            background-color: red;
+            width: 200px;
+        }
+
+        .display-in-ex {
+            background-color: pink;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+    </style>
+    </head>
+    <body>
+
+        <h1 id="header-id" class="header header-one">
+            Header
+        </h1>
+
+        <!-- <div class="px" style="background-color: red; width: 100px;">
+            Static Div
+        </div>
+        
+        <div class="container">
+            <div style="background-color: red; width: 50%;">
+                Percentage div
+            </div>
+        </div> -->
+
+        <div>1px</div>
+        <div style="font-size: 1rem;">1rem</div>
+        <div style="font-size: 2rem;" >2rem</div>
+
+        <div style="font-size: 1em;">1em</div>
+        <div style="font-size: 2em;" >2em</div>
+
+        <div class="container">
+            <div style="font-size: 1rem;">1rem</div>
+            <div style="font-size: 2rem;">2rem</div> 
+
+            <div style="font-size: 1em;">1em</div> 
+            <div style="font-size: 2em;" >2em</div> 
+        </div>
+
+
+        <div>
+            Powered by 
+            <span style="font-weight: bold;">Scaler</span>.
+        </div>
+
+        <div class="display-bl-ex">One</div>
+        <div class="display-bl-ex">Two</div>
+        <div class="display-bl-ex">Three</div>
+
+        <span class="display-in-ex">One</span>
+        <span class="display-in-ex">Two</span>
+        <span class="display-in-ex">Three</span>
+        <a class="display-in-ex" href="blank">somelink</a>
+        
+    </body>
+</html>

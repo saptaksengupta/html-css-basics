@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+        .nested ol li ~ li {
+            color: green;
+        }
+
+        [id="test"]{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nested">
+        <li>First Element</li>
+        <li>
+            Second Element
+            <ol>
+                <li>I am under Second</li>
+                <li>I am under Second</li>
+                <li>I am under Second</li>
+                <li>I am under Second</li>
+                <li>I am under Second</li>
+            </ol>
+        </li>
+        <li>Third Element</li>
+        <li>Fourth Element</li>
+    </ul>
+
+    <a href="_blank" class="test">Some Link</a>
+</body>
+</html>
